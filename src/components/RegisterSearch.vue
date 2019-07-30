@@ -1,26 +1,7 @@
 <template>
   <div :style="{ height: '100px', margin: '10px 16px', padding: '10px', background: '#fFf' }">
     <a-form :layout="formLayout">
-      <!-- <a-form-item
-        label="Form Layout"
-        :label-col="formItemLayout.labelCol"
-        :wrapper-col="formItemLayout.wrapperCol"
-      >
-        <a-radio-group
-          default-value="horizontal"
-          @change="handleFormLayoutChange"
-        >
-          <a-radio-button value="horizontal">
-            Horizontal
-          </a-radio-button>
-          <a-radio-button value="vertical">
-            Vertical
-          </a-radio-button>
-          <a-radio-button value="inline">
-            Inline
-          </a-radio-button>
-        </a-radio-group>
-      </a-form-item> -->
+      
       <a-form-item
         label="患者姓名"
         :label-col="formItemLayout.labelCol"

@@ -4,42 +4,52 @@
 <script>
 const columns = [{
   title: '挂号编号',
-  // dataIndex: 'num',
-  width: 50,
+  align: 'center',
+  dataIndex: 'num',
+  width: 100,
 }, {
   title: '挂号费（元）',
+  align: 'center',
   dataIndex: 'cost',
-  width: 50,
+  width: 100,
 }, {
   title: '科室名称',
+  align: 'center',
   dataIndex: 'deptId',
   width: 50,
 }, {
   title: '医生姓名',
+  align: 'center',
   dataIndex: 'doctorId',
   width: 50,
 }, {
   title: '患者姓名',
+  align: 'center',
   dataIndex: 'patientName',
   width: 50,
 }, {
   title: '挂号时间',
+  align: 'center',
   dataIndex: 'createTime',
   width: 50,
 }, {
   title: '操作员',
+  align: 'center',
   dataIndex: 'operator',
   width: 50,
 }, {
   title: '号类型',
+  align: 'center',
   dataIndex: 'type',
   width: 50,
 }, {
   title: '状态',
+  align: 'center',
   dataIndex: 'status',
   width: 50,
 }, {
   title: '操作',
+  align: 'center',
   dataIndex: 'age',
   width: 50,
 }
